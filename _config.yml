@@ -6,10 +6,15 @@ description: >
   providing documentation and blog post pages.
 lang: en-US
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: "/eudis-doc" # the subpath of your site, e.g. /blog/
+url: https://eudisley.github.io/eudis-doc # the base hostname & protocol for your site
+git_address: https://github.com/eudisley/eudis-doc
+git_edit_address: https://github.com/eudisley/eudis-doc/blob/gh-pages
+
+# Configure the remote_theme plugin with the gh-pages branch
+# or the specific tag
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
+
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
